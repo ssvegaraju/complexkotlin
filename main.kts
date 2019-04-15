@@ -28,7 +28,9 @@ val r2 = "" // call process() with message "FOO" and a block that upper-cases
 
 
 // write an enum-based state machine between talking and thinking
-enum class Philosopher { }
+enum class Philosopher {
+    THINKING
+ }
 
 // create an class "Command" that can be used as a function (provide an "invoke()" function)
 // that takes a single parameter ("message" of type String)
