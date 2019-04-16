@@ -61,6 +61,14 @@ class Command(val prompt: String) {
     }
 }
 
+/*
+-----BONUS QUESTION-----
+    Seneca the Younger was a Roman Stoic Philosopher. Stoicism is the belief that one should detach themselves
+    from worldly desires and live as simply as possible. At least, that's what I remember from the Roman
+    History class I took last quarter haha.
+------------------------
+ */
+
 
 // ================================
 println("map fold test: " + if (mapFoldResults == "FIZZBUZZFIZZFIZZBUZZFIZZFIZZBUZZ") "." else "!")
